@@ -1,0 +1,57 @@
+.TH SYSOPCTL 1 "November 2024" "sysopctl v0.1.0" "System Management Utility"
+.SH NAME
+sysopctl \- a command-line tool for managing system services and resources
+.SH SYNOPSIS
+.B sysopctl
+[COMMAND] [OPTIONS]
+.SH DESCRIPTION
+The \fBsysopctl\fR command provides system administration capabilities including managing services, monitoring system load, and performing backups.
+
+.SH OPTIONS
+.TP
+\fB--help\fR
+Display the help menu with available commands and options.
+.TP
+\fB--version\fR
+Display the version of \fBsysopctl\fR.
+
+.SH COMMANDS
+.TP
+\fBservice list\fR
+Lists all active services.
+.TP
+\fBservice start \fR<name>
+Starts the specified service.
+.TP
+\fBservice stop \fR<name>
+Stops the specified service.
+.TP
+\fBsystem load\fR
+Displays the current system load averages.
+.TP
+\fBdisk usage\fR
+Shows disk usage statistics in a human-readable format.
+.TP
+\fBprocess monitor\fR
+Monitors real-time system processes.
+.TP
+\fBlogs analyze\fR
+Analyzes recent critical log entries.
+.TP
+\fBbackup \fR<path>
+Backs up system files to the specified path.
+
+.SH EXAMPLES
+.TP
+\fBsysopctl service list\fR
+Lists all active services.
+.TP
+\fBsysopctl service start nginx\fR
+Starts the \fBnginx\fR service.
+.TP
+\fBsysopctl system load\fR
+Shows system load averages.
+
+.SH AUTHOR
+Written by Ajay.
+
