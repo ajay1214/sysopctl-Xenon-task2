@@ -3,13 +3,13 @@
 **SysOpCTL** is a command-line utility script designed for system operations management. It helps you easily manage services, monitor system load, analyze logs, back up files, and much more.
 
 ## Features
-Active Service Overview: Display a list of all currently running system services.
-Service Control: Quickly initiate or halt specific system services.
-Real-Time Load Monitoring: Check live system load averages.
-Disk Usage Insights: Access detailed statistics on disk usage.
-Process Tracking: Observe and monitor system processes in real-time.
-Log Analysis: Review and analyze recent critical system logs.
-System Backup: Perform essential backups of system files for safekeeping.
+-**Active Service Overview**: Display a list of all currently running system services.
+-**Service Control: Quickly**: initiate or halt specific system services.
+-**Real-Time Load Monitoring**: Check live system load averages.
+-**Disk Usage Insights**: Access detailed statistics on disk usage.
+-**Process Tracking**: Observe and monitor system processes in real-time.
+-**Log Analysis**: Review and analyze recent critical system logs.
+-**System Backup**: Perform essential backups of system files for safekeeping.
 
 
 ## Table of Contents
